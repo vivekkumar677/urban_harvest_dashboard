@@ -300,10 +300,11 @@ const Sidebar = ({
 
                 <ListItemText
                   primary={item.text}
-                  primaryTypographyProps={{
-                    fontWeight: active
-                      ? 600
-                      : 400,
+                  sx={{
+                    "& .MuiListItemText-primary": {
+                      fontWeight: active ? 600 : 400,
+                      color: "#fff",
+                    },
                   }}
                 />
               </ListItemButton>

@@ -7,13 +7,10 @@ import {
   Avatar,
   Box,
   IconButton,
-  InputBase,
   Badge,
-  Paper,
 } from "@mui/material";
 
 import NotificationsIcon from "@mui/icons-material/Notifications";
-import SearchIcon from "@mui/icons-material/Search";
 
 const Header = () => {
   return (
@@ -70,37 +67,6 @@ const Header = () => {
             flexWrap: "wrap",
           }}
         >
-          {/* Search Bar */}
-          {/* <Paper
-            elevation={0}
-            sx={{
-              display: "flex",
-              alignItems: "center",
-              px: 2,
-              py: 0.5,
-              borderRadius: 3,
-              backgroundColor: "#f5f7fb",
-              width: {
-                xs: "100%",
-                sm: 250,
-              },
-            }}
-          >
-            <SearchIcon
-              sx={{
-                color: "gray",
-                mr: 1,
-              }}
-            />
-
-            <InputBase
-              placeholder="Search..."
-              sx={{
-                width: "100%",
-              }}
-            />
-          </Paper> */}
-
           {/* Notification */}
           <IconButton
             sx={{
